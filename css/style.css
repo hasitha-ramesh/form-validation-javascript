@@ -119,25 +119,25 @@ input[type="submit"]:active {
   box-shadow: 0 2px 10px rgba(102, 126, 234, 0.4);
 }
 
-.alert {
-  padding: 15px;
-  border-radius: 12px;
+.error{
+  color: rgb(255, 0, 0);
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+.success{
   text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 15px;
   font-weight: 600;
-  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgb(2, 160, 60);
+  border-radius: 15px;
+  margin-top: 20px;
 }
-.alert.success {
-  background-color: rgb(0, 164, 68);
-  color: white;
-}
-.alert.warning {
-  background-color: rgb(255, 193, 7);
-  color: white;
-}
-.alert.error {
-  background-color: rgb(220, 53, 69);
-  color: white;
-}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .form {
